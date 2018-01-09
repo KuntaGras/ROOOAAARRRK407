@@ -1,3 +1,4 @@
+:
 test
 Colin is a meme
 this is vim
