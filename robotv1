@@ -19,7 +19,7 @@ public class Robot extends IterativeRobot {
 
 	@Override
 	public void robotInit() {
-		m_myRobot = new DifferentialDrive(new Spark(0), new Spark(1));
+		m_myRobot = new DifferentialDrive(new Talon(0), new Talon(1));
 		m_leftStick = new Joystick(0);
 		m_rightStick = new Joystick(1);
 	}
